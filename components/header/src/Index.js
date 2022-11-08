@@ -29,69 +29,71 @@ const submenu = {
             <div class="border-b-2 border-zinc-200 pt-4 pb-2 md:hidden text-xl text-my-base-purple-700 md:border-b-0">Find a home</div>
             <ul class="mb-4 mt-2 space-y-4 md:mb-0 md:block border-b-2 border-zinc-200 md:border-b-0 md:mt-0" aria-labelledby="mega-menu-full-image-home">
                 <li>
-                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base">
+                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base md:text-xs lg:text-base">
                         Rent a home
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Home href rent
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Leasehold
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         The renting process
                     </a>
                 </li>
             </ul>
             <ul class="mb-4 space-y-4 md:mb-0 border-b-2 border-zinc-200 md:border-b-0">
                 <li>
-                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base">
+                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base md:text-xs lg:text-base">
                         Buy a home
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Homes href buy
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Help href buy / Shared ownership
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         The buying process
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Why buy with us
                     </a>
                 </li>
             </ul>
             <ul class="mb-4 space-y-4 md:mb-0 border-b-2 border-zinc-200 md:border-b-0">
                 <li>
-                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base">
+                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base md:text-xs lg:text-base">
                         Moving / Exchange home
                     </a>
                 </li>
             </ul>
             <ul class="mb-4 space-y-4 md:mb-0 border-b-2 border-zinc-200 md:border-b-0">
                 <li>
-                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base">
+                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base md:text-xs lg:text-base">
                         Our developments
                     </a>
                 </li>
             </ul>
             <div>
-                <img src="../../dist/img/menu-sub-img.png" alt="Menu Sub Image" />
+                <a href="/">
+                    <img class="rounded-md" src="../../dist/img/menu-sub-img.png" alt="Menu Sub Image" />
+                </a>
                 <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 underline font-medium font-albertSans-medium text-my-base-purple-700 flex mt-1 text-sm">
                     Text button
                     <svg class="ml-1 -mr-1 w-4 h-4 mt-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
@@ -99,7 +101,7 @@ const submenu = {
             </div>
         </div>`,
     'submenu_2' : `<div class="header-menu-box grid px-6 py-5 mx-auto text-sm text-gray-500 dark:text-gray-400  md:grid-cols-4 md:px-0">
-            <div class="flex md:hidden button-font-size underline items-center	">
+            <div class="flex md:hidden button-font-size underline items-center  ">
               <svg class="h-3 w-3 mr-75" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2.871 5.25H12V6.75H2.871L6.894 10.773L5.8335 11.8335L0 6L5.8335 0.166504L6.894 1.227L2.871 5.25Z" fill="#14154E"/>
                 </svg>
@@ -108,115 +110,115 @@ const submenu = {
             <div class="border-b-2 border-zinc-200 pt-4 pb-2 md:hidden text-xl text-my-base-purple-700 md:border-b-0">Advice and Support</div>
             <ul class="mb-4 space-y-4 md:mb-0 md:block border-b-2 border-zinc-200 md:border-b-0" aria-labelledby="mega-menu-full-image-home">
                 <li>
-                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base">
+                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base md:text-xs lg:text-base">
                         Financial support
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Help with money
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Debt advice pages
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         The renting proces
                     </a>
                 </li>
             </ul>
             <ul class="mb-4 space-y-4 md:mb-0 border-b-2 border-zinc-200 md:border-b-0">
                 <li>
-                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base">
+                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base md:text-xs lg:text-base">
                         Community
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Community services
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Customer service commitments
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Customer voice
                     </a>
                 </li>
             </ul>
             <ul class="mb-4 space-y-4 md:mb-0 border-b-2 border-zinc-200 md:border-b-0">
                 <li>
-                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base">
+                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base md:text-xs lg:text-base">
                         Health and Wellbeing
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Domestic abuse
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Mental health support
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Homelessness
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Safeguarding
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Foodbanks
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Independant living schemes
                     </a>
                 </li>
             </ul>
             <ul class="mb-4 space-y-4 md:mb-0 border-b-2 border-zinc-200 md:border-b-0">
                 <li>
-                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base">
+                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base md:text-xs lg:text-base">
                         Your Future
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Community Investment
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Apply for funding
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Employment and support
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Building for the future
                     </a>
                 </li>
             </ul>
                 </div>`,
     'submenu_3' : `<div class="header-menu-box grid px-6 py-5 mx-auto text-sm text-gray-500 dark:text-gray-400  md:grid-cols-5 md:px-0">
-            <div class="flex md:hidden button-font-size underline items-center	">
+            <div class="flex md:hidden button-font-size underline items-center  ">
               <svg class="h-3 w-3 mr-75" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2.871 5.25H12V6.75H2.871L6.894 10.773L5.8335 11.8335L0 6L5.8335 0.166504L6.894 1.227L2.871 5.25Z" fill="#14154E"/>
                 </svg>
@@ -225,27 +227,27 @@ const submenu = {
             <div class="border-b-2 border-zinc-200 md:hidden text-xl text-my-base-purple-700 md:border-b-0">About Us</div>
             <ul class="mb-4 space-y-4 md:mb-0 md:block border-b-2 border-zinc-200 md:border-b-0" aria-labelledby="mega-menu-full-image-home">
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         News
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Blog
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Place page
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         COVIDS
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Evnets and activities
                     </a>
                 </li>
@@ -255,7 +257,9 @@ const submenu = {
             <ul></ul>
             <ul></ul>
             <div>
-                <img src="../../dist/img/menu-sub-img.png" alt="Menu Sub Image" />
+                <a href="/">
+                    <img class="rounded-md" src="../../dist/img/menu-sub-img.png" alt="Menu Sub Image" />
+                </a>
 
                 <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 underline font-medium font-albertSans-medium text-my-base-purple-700 flex mt-1 text-sm">
                     Text button
@@ -264,7 +268,7 @@ const submenu = {
             </div>
                 </div>`,
     'submenu_4' : `<div class="header-menu-box grid px-6 py-5 mx-auto text-sm text-gray-500 dark:text-gray-400  md:grid-cols-4 md:px-0">
-            <div class="flex md:hidden button-font-size underline items-center	">
+            <div class="flex md:hidden button-font-size underline items-center  ">
               <svg class="h-3 w-3 mr-75" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2.871 5.25H12V6.75H2.871L6.894 10.773L5.8335 11.8335L0 6L5.8335 0.166504L6.894 1.227L2.871 5.25Z" fill="#14154E"/>
                 </svg>
@@ -273,77 +277,79 @@ const submenu = {
             <div class="border-b-2 border-zinc-200 pt-4 pb-2 md:hidden text-xl text-my-base-purple-700 md:border-b-0">What's going on</div>
             <ul class="mb-4 space-y-4 md:mb-0 md:block border-b-2 border-zinc-200 md:border-b-0" aria-labelledby="mega-menu-full-image-home">
                 <li>
-                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base">
+                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base md:text-xs lg:text-base">
                         About Us
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Why us
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Our culture
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Our purpose
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Our achivements
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Equality, diversity & inclusion
                     </a>
                 </li>
             </ul>
             <ul class="mb-4 space-y-4 md:mb-0 border-b-2 border-zinc-200 md:border-b-0">
                 <li>
-                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base">
+                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base md:text-xs lg:text-base">
                         Our Performance
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Our leadership
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Our strategy
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Value for money
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Development spend over 500
                     </a>
                 </li>
             </ul>
             <ul class="mb-4 space-y-4 md:mb-0 border-b-2 border-zinc-200 md:border-b-0">
                 <li>
-                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base">
+                    <a href="/" class="dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-700 text-base md:text-xs lg:text-base">
                         Careers
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Latest vacancies
                     </a>
                 </li>
             </ul>
             <div>
-                <img src="../../dist/img/menu-sub-img.png" alt="Menu Sub Image" />
+                <a href="/">
+                    <img class="rounded-md" src="../../dist/img/menu-sub-img.png" alt="Menu Sub Image" />
+                </a>
 
                 <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 underline font-medium font-albertSans-medium text-my-base-purple-700 flex mt-1 text-sm">
                     Text button
@@ -352,7 +358,7 @@ const submenu = {
             </div>
                 </div>`,
     'submenu_5' : `<div class="header-menu-box md:grid px-6 py-5 mx-auto text-sm text-gray-500 dark:text-gray-400  md:grid-cols-2 md:px-0">
-            <div class="flex md:hidden button-font-size underline items-center	">
+            <div class="flex md:hidden button-font-size underline items-center  ">
               <svg class="h-3 w-3 mr-75" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2.871 5.25H12V6.75H2.871L6.894 10.773L5.8335 11.8335L0 6L5.8335 0.166504L6.894 1.227L2.871 5.25Z" fill="#14154E"/>
                 </svg>
@@ -361,49 +367,49 @@ const submenu = {
             <div class="border-b-2 border-zinc-200 md:hidden text-xl text-my-base-purple-700 md:border-b-0 pt-4 pb-2">My Home</div>
             <ul class="mb-4 space-y-4 md:mb-0 md:block border-b-2 border-zinc-200 md:border-b-0" aria-labelledby="mega-menu-full-image-home">
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Book a repair & repair information
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Pay rent & rent information
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Managin & ending my tenancy
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Living in your home
                     </a>
                 </li>
             </ul>
             <ul class="mb-4 space-y-4 md:mb-0 border-b-2 border-zinc-200 md:border-b-0">
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         What is an emergency repair?
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Building and fire safety
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         New tenancy page
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         Tenancy and Customer FAQ's
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm">
+                    <a href="/" class="hover-underline-animation hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 text-sm md:text-xs lg:text-sm">
                         ASB information & reporting
                     </a>
                 </li>
@@ -433,8 +439,8 @@ const Header = {
             // $('#xmark-icon').addClass('hidden');
             // $('#bar-icon').removeClass('hidden');
             $('#submenu-button-group').addClass('hidden');
+            $('#mega-menu-full-image').hasClass('fade-in') && $('#mega-menu-full-image').addClass('fade-out');
             $('#mega-menu-full-image').removeClass('fade-in');
-            $('#mega-menu-full-image').addClass('fade-out');
             $('#transition-background').addClass('hidden');
         }
     },
@@ -569,6 +575,7 @@ $(window).on("resize", function(event){
         if($(window).width() > 768) {
             Header.clearMenu();
             Header.clearHamburer();
+            $('#mega-menu-full-image').removeClass('fade-out');
             desktop_mobile = true;
         }
     }
