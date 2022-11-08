@@ -1,0 +1,59 @@
+{
+  "name": "laravel-mix-tailwind-flowbite",
+  "version": "1.0.0",
+  "author": "Mike Mooney <mike@highly-developed.com>",
+  "description": "Vanilla JS Boilerplate for Tailwind 3.0 & Flowbite",
+  "directories": {
+    "test": "tests"
+  },
+  "private": true,
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "cssnano": "^5.1.14",
+    "flowbite": "^1.5.3",
+    "jshint": "^2.13.5",
+    "npm-run-all": "^4.1.5",
+    "swiper": "^8.4.4",
+    "uglify-js": "^3.17.4",
+    "watchify": "^4.0.0"
+  },
+  "scripts": {
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "browser-sync": "^2.27.7",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "cross-env": "^5.2.0",
+    "flowbite": "^1.5.3",
+    "fs": "0.0.1-security",
+    "glob-all": "^3.2.1",
+    "laravel-mix": "^6.0.0",
+    "laravel-mix-purgecss": "^6.0.0",
+    "laravel-mix-tailwind": "^0.1.2",
+    "postcss": "^8.4.18",
+    "postcss-cli": "^10.0.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^12.6.0",
+    "swiper": "^8.4.4",
+    "tailwindcss": "^3.2.1",
+    "webpack": "^5.73.0"
+  }
+}

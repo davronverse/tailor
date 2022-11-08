@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{{ COMPONENT NAME }}" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="../../dist/mix-manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>{{ COMPONENT NAME }}</title>
+  <link rel="stylesheet" href="../../dist/css/app.css" />
+  
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <div class="">
+    <a class="blog-card inline-block font-albertSans-medium rounded-md border border-gray-200 overflow-hidden hover:shadow-lg" href="">
+      <div class="bg-slate-300 bg-[url('../../dist/img/card_placeholder.png')] bg-cover blog-card-image">
+      </div>
+      <div class="p-6 blog-card-content">
+        <span class="bg-blue-100 text-my-base-purple-700 text-xs font-semibold mr-2 px-3 py-1.5 rounded dark:bg-blue-200 dark:text-blue-800 tracking-wider">CHIP</span>
+        <div class="my-3">
+          <h5 class="my-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white tracking-wider blog-card-title">Card title1</h5>
+          <p class="font-normal text-gray-700 dark:text-gray-400 mb-3 blog-card-text">Short, supporting body copy. Three lines maximum</p>
+
+          <span class="text-indigo-800 text-xs font-semibold mr-2 pr-3 py-1.5 rounded  dark:text-blue-800 tracking-wider blog-card-status">Posted</span>
+          <span class="bg-blue-100 text-gray-800 text-xs font-semibold mr-2 px-3 py-1.5 rounded dark:bg-blue-200 dark:text-blue-800 tracking-wider">01 JAN 2022</span>
+        </div>
+        <button type="button" class="focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm py-2.5 text-center inline-flex items-center underline underline-offset-8 blog-card-btn items-center">
+            Text CTA
+            <svg class="ml-2" width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10.4767 5.66667L6.00671 1.19667L7.18504 0.0183334L13.6667 6.5L7.18504 12.9817L6.00671 11.8033L10.4767 7.33333H0.333374V5.66667H10.4767Z" fill="#14154E"/>
+            </svg>
+
+        </button>
+      </div>
+    </a>
+
+  </div>
+  <script src="//code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+  <!--<script src="js/Index.js"></script>-->
+  <script src="../../dist/js/app.js" /></script>
+</body>
+
+</html>

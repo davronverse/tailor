@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{{ COMPONENT NAME }}" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="../../dist/mix-manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>{{ COMPONENT NAME }}</title>
+  <link rel="stylesheet" href="../../dist/css/app.css" />
+  
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <div class="m-4">
+    <a class="jobpost-card inline-block font-albertSans-medium rounded-md border border-gray-200 overflow-hidden hover:shadow-lg lg: w-full group" href="">
+
+      <div class="p-6 jobpost-card-content">
+        <div class="my-3">
+          <span class="text-indigo-800 text-xs font-semibold pr-2 py-1.5 rounded  dark:text-blue-800 tracking-wider blog-card-status">Posted</span>
+          <span class="bg-blue-100 text-gray-800 text-xs font-semibold mr-2 px-3 py-1.5 rounded dark:bg-blue-200 dark:text-blue-800 tracking-wider">01 JAN 2022</span>
+          <h5 class="my-4 text-3xl font-bold tracking-tight text-gray-900 dark:text-white">Job title</h5>
+
+          <div class="flex max-sm:block mb-4">
+            <span class="flex items-center mr-6">
+              <svg width="20" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.364 9.193L15.556 0L16.971 1.414L6.364 12.021L0 5.657L1.414 4.243L6.364 9.193Z" fill="#6667AB"/>
+              </svg>
+              <p class="ml-2 text-base text-indigo-800">Contact type</p>
+            </span>
+
+            <span class="flex items-center max-sm:mt-2">
+              <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 5.14301V17.967L7.065 15.797L13.065 18.797L18 16.68V3.85701L19.303 3.29901C19.3791 3.2664 19.4621 3.25318 19.5445 3.26056C19.627 3.26793 19.7063 3.29566 19.7754 3.34126C19.8445 3.38686 19.9012 3.4489 19.9404 3.52181C19.9796 3.59473 20.0001 3.67623 20 3.75901V18L13 21L7 18L0.697 20.701C0.620914 20.7336 0.537919 20.7468 0.455466 20.7395C0.373012 20.7321 0.293679 20.7044 0.224587 20.6588C0.155495 20.6132 0.0988058 20.5511 0.059607 20.4782C0.0204082 20.4053 -7.34563e-05 20.3238 1.9795e-07 20.241V6.00001L2 5.14301ZM14.243 10.243L10 14.485L5.757 10.243C4.91799 9.40386 4.34664 8.33476 4.11521 7.1709C3.88378 6.00704 4.00266 4.80069 4.45682 3.7044C4.91098 2.6081 5.68001 1.67109 6.66668 1.01184C7.65336 0.352601 8.81336 0.000732422 10 0.000732422C11.1866 0.000732422 12.3466 0.352601 13.3333 1.01184C14.32 1.67109 15.089 2.6081 15.5432 3.7044C15.9973 4.80069 16.1162 6.00704 15.8848 7.1709C15.6534 8.33476 15.082 9.40386 14.243 10.243V10.243ZM10 11.657L12.828 8.82801C13.3875 8.26865 13.7686 7.55592 13.9231 6.77997C14.0775 6.00401 13.9983 5.19968 13.6956 4.4687C13.3929 3.73773 12.8802 3.11294 12.2224 2.67337C11.5646 2.23379 10.7912 1.99916 10 1.99916C9.20882 1.99916 8.43542 2.23379 7.77759 2.67337C7.11977 3.11294 6.60708 3.73773 6.30437 4.4687C6.00165 5.19968 5.92251 6.00401 6.07695 6.77997C6.23139 7.55592 6.61247 8.26865 7.172 8.82801L10 11.657Z" fill="#343681"/>
+              </svg>
+              <p class="ml-2 text-base text-indigo-800">Job location</p>
+            </span>
+          </div>
+
+        </div>
+        <div class="flex items-center">
+          <span class="text-2xl text-[#14154E] mr-2 font-bold">£30,000</span>
+          <span class="text-md text-[#14154E] font-medium">+ benefits</span>
+        </div>
+        <div class="mt-10">
+          <button type="button" class="max-sm:block mr-6 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center bg-[#7667AB] dark:focus:ring-blue-800 mr-6">
+            <div class="flex">
+                <span>Ready and apply</span>
+                <svg aria-hidden="true" class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </div>
+          </button>
+          <span class="max-sm:mt-4 max-sm:block text-sm font-medium text-color-deadline">Deadline 01: January 2022</span>
+        </div>
+
+      </div>
+    </a>
+    
+  </div>
+  <script src="//code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+  <!--<script src="js/Index.js"></script>-->
+  <script src="../../dist/js/app.js" /></script>
+</body>
+
+</html>

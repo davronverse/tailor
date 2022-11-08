@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{{ COMPONENT NAME }}" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="../../dist/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>{{ COMPONENT NAME }}</title>
+  <link rel="stylesheet" href="../../dist/css/app.css" />
+  
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <div>
+    <div class="transition-background w-full h-full hidden" id="transition-background"></div>
+    <div class="hidden mx-auto w-11/12 px-4 py-2 md:block sm:hidden">
+      <div class="flex justify-between">
+        <a href="/">
+          <img src="../../dist/img/manchester-logo.svg" alt="Manchester logo" />
+        </a>
+        <div class="flex">
+          <button type="button" class="inline-flex items-center rounded-xl border border-my-base-purple-500 bg-transparent px-3 py-2.5 button-font-size font-medium text-my-base-purple-700 shadow-sm hover:bg-transparent hover:border-my-base-purple-600 focus:outline-none focus:ring-my-base-purple-600 focus:ring-offset-2 font-albertSans-medium">
+            <svg class="h-4 w-4 mr-75" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M6.5 0.25H9.5C11.0913 0.25 12.6174 0.882141 13.7426 2.00736C14.8679 3.13258 15.5 4.6587 15.5 6.25C15.5 7.8413 14.8679 9.36742 13.7426 10.4926C12.6174 11.6179 11.0913 12.25 9.5 12.25V14.875C5.75 13.375 0.5 11.125 0.5 6.25C0.5 4.6587 1.13214 3.13258 2.25736 2.00736C3.38258 0.882141 4.9087 0.25 6.5 0.25ZM8 10.75H9.5C10.0909 10.75 10.6761 10.6336 11.2221 10.4075C11.768 10.1813 12.2641 9.84984 12.682 9.43198C13.0998 9.01412 13.4313 8.51804 13.6575 7.97208C13.8836 7.42611 14 6.84095 14 6.25C14 5.65905 13.8836 5.07389 13.6575 4.52792C13.4313 3.98196 13.0998 3.48588 12.682 3.06802C12.2641 2.65016 11.768 2.31869 11.2221 2.09254C10.6761 1.8664 10.0909 1.75 9.5 1.75H6.5C5.30653 1.75 4.16193 2.22411 3.31802 3.06802C2.47411 3.91193 2 5.05653 2 6.25C2 8.9575 3.8465 10.7245 8 12.61V10.75Z"
+                fill="#14154E" />
+            </svg>
+            Contact us
+          </button>
+  
+          <div class="ml-4"></div>
+  
+          <button type="button" class="inline-flex items-center rounded-xl bg-my-base-purple-500 px-3 py-2.5 button-font-size font-medium text-white shadow-sm hover:bg-my-base-purple-600 focus:outline-none focus:bg-my-base-purple-600 focus:ring-offset-2 font-albertSans-medium purple-button-background">
+            <svg class="h-4 w-4 mr-75" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0 16.5C0 14.9087 0.632141 13.3826 1.75736 12.2574C2.88258 11.1321 4.4087 10.5 6 10.5C7.5913 10.5 9.11742 11.1321 10.2426 12.2574C11.3679 13.3826 12 14.9087 12 16.5H10.5C10.5 15.3065 10.0259 14.1619 9.18198 13.318C8.33807 12.4741 7.19347 12 6 12C4.80653 12 3.66193 12.4741 2.81802 13.318C1.97411 14.1619 1.5 15.3065 1.5 16.5H0ZM6 9.75C3.51375 9.75 1.5 7.73625 1.5 5.25C1.5 2.76375 3.51375 0.75 6 0.75C8.48625 0.75 10.5 2.76375 10.5 5.25C10.5 7.73625 8.48625 9.75 6 9.75ZM6 8.25C7.6575 8.25 9 6.9075 9 5.25C9 3.5925 7.6575 2.25 6 2.25C4.3425 2.25 3 3.5925 3 5.25C3 6.9075 4.3425 8.25 6 8.25Z"
+                fill="white" />
+            </svg>
+            Customer portal
+          </button>
+  
+          <div class="ml-4"></div>
+  
+          <button type="button" class="inline-flex items-center rounded-xl border border-my-base-purple-500 bg-transparent px-3 py-2.5 text-base font-medium text-my-base-purple-700 shadow-sm hover:bg-transparent focus:outline-none hover:border-my-base-purple-600 focus:ring-my-base-purple-600 focus:ring-offset-2 font-albertSans-medium ">
+            <svg class="h-5 w-5" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M12.5 2.50009C12.5 3.88073 11.3807 5 10 5C8.61928 5 7.5 3.88069 7.5 2.50009C7.5 1.11927 8.61928 0 10 0C11.3807 0 12.5 1.11931 12.5 2.50009Z"
+                fill="#14154E" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M7.73893 8.45808C7.47156 11.7395 6.7675 14.9227 5.67005 18.0169C5.40217 18.7726 5.75837 19.6182 6.46499 19.9047C7.17176 20.1911 7.96278 19.8102 8.23067 19.0548C9.00736 16.8644 9.60141 15.6083 10.0001 13.3333C10.3987 15.6087 10.9923 16.8646 11.7692 19.0548C12.0371 19.8104 12.8281 20.1911 13.5348 19.9047C14.2416 19.6183 14.5977 18.7726 14.3298 18.0169C13.2332 14.9241 12.5292 11.7431 12.2614 8.46414C13.9016 8.37809 15.5427 8.19415 17.1836 7.90919C17.9295 7.77958 18.4367 7.02686 18.3155 6.22947C18.1943 5.43188 17.4902 4.88954 16.7444 5.01914C12.2456 5.80085 7.74644 5.77005 3.24768 5.01786C2.50114 4.89298 1.80001 5.43971 1.68337 6.23785C1.56656 7.03632 2.07794 7.7856 2.82447 7.91049C4.46259 8.1843 6.10054 8.36818 7.73893 8.45808Z"
+                fill="#14154E" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden relative mx-auto px-4 py-2 md:block sm:hidden">
+      <div class="absolute inset-0 flex items-center" aria-hidden="true">
+        <div class="w-full border-t border-gray-300"></div>
+      </div>
+    </div>
+    <nav class="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900 mx-auto w-11/12 px-4 py-2">
+      <div class="flex justify-between flex-wrap items-center mx-auto py-2.5 md:block">
+        <a href="/" class="md:hidden sm:block">
+          <img src="../../dist/img/manchester-mobile-logo.svg" alt="Manchester Mobile logo" />
+        </a>
+        <div class="flex md:hidden sm:flex">
+          <button type="button"
+            class="inline-flex items-center rounded-xl bg-my-base-purple-500 px-3 py-2.5 button-font-size font-medium text-white shadow-sm hover:bg-my-base-purple-600 focus:outline-none focus:ring-my-base-purple-600 focus:ring-offset-2 font-albertSans-medium purple-button-background">
+            <svg class="h-4 w-4 mr-75" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0 16.5C0 14.9087 0.632141 13.3826 1.75736 12.2574C2.88258 11.1321 4.4087 10.5 6 10.5C7.5913 10.5 9.11742 11.1321 10.2426 12.2574C11.3679 13.3826 12 14.9087 12 16.5H10.5C10.5 15.3065 10.0259 14.1619 9.18198 13.318C8.33807 12.4741 7.19347 12 6 12C4.80653 12 3.66193 12.4741 2.81802 13.318C1.97411 14.1619 1.5 15.3065 1.5 16.5H0ZM6 9.75C3.51375 9.75 1.5 7.73625 1.5 5.25C1.5 2.76375 3.51375 0.75 6 0.75C8.48625 0.75 10.5 2.76375 10.5 5.25C10.5 7.73625 8.48625 9.75 6 9.75ZM6 8.25C7.6575 8.25 9 6.9075 9 5.25C9 3.5925 7.6575 2.25 6 2.25C4.3425 2.25 3 3.5925 3 5.25C3 6.9075 4.3425 8.25 6 8.25Z"
+                fill="white" />
+            </svg>
+            Customer portal
+          </button>
+          <div class="ml-6 md:hidden sm:block"></div>
+          <button id="mega-menu-full-image-button" data-collapse-toggle="mega-menu-full-image" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu-full-image" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" id="xmark-icon" class="hidden h-5 w-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg> -->
+            <svg id="bar-icon" class="h-5 w-5" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0H18V2H0V0ZM0 7H12V9H0V7ZM0 14H18V16H0V14Z" fill="#14154E" />
+            </svg>
+          </button>
+        </div>
+        <div id="mega-menu-full-image" class="flex flex-col px-3.5 header-menu-box justify-between items-center w-full md:block md:w-auto md:order-1 md:px-0">
+          <div class="w-full">
+            <div class="flex flex-row-reverse w-100 mt-4 md:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="mobile-xmark-icon" class="h-7 w-7">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </div>
+            <ul class="flex flex-col mt-2 text-sm font-medium md:flex-row md:space-x-8 md:mt-0" id="header-menu">
+              <li>
+                <button type="button"
+                  class="flex justify-between items-center py-1 w-full text-my-base-purple-700 border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700 font-semibold font-albertSans-medium md:text-base lg:text-base xl:text-base 2xl:text-base text-base mobile-text peer" id="find-a-home">Find a home  
+                    <div id="menu-1-active" class="hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hidden h-4 w-4 md:block sm:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4 md:hidden sm:block">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                      </svg>
+                    </div> 
+                    <div id="menu-1-no-active">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hidden h-4 w-4 md:block sm:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4 md:hidden sm:block">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                      </svg>
+                    </div>
+                  </button>
+              </li>
+              <li>
+                <button type="button"
+                  class="flex justify-between items-center py-1 w-full text-my-base-purple-700 border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700 font-semibold font-albertSans-medium md:text-base lg:text-base xl:text-base 2xl:text-base text-base mobile-text peer"
+                  id="advice-support">Advice and support
+                  <div id="menu-2-active" class="hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                      class="hidden h-4 w-4 md:block sm:hidden">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                      class="h-4 w-4 md:hidden sm:block">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                  </div>
+                  <div id="menu-2-no-active">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                      class="hidden h-4 w-4 md:block sm:hidden">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                      class="h-4 w-4 md:hidden sm:block">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                  </div>
+                </button>
+              </li>
+              <li>
+                <button type="button"
+                  class="flex justify-between items-center py-1 w-full text-my-base-purple-700 border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700 font-semibold font-albertSans-medium md:text-base lg:text-base xl:text-base 2xl:text-base text-base mobile-text peer"
+                  id="what-on">What's going on
+                  <div id="menu-3-active" class="hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                      class="hidden h-4 w-4 md:block sm:hidden">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                      class="h-4 w-4 md:hidden sm:block">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                  </div>
+                  <div id="menu-3-no-active">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                      class="hidden h-4 w-4 md:block sm:hidden">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                      class="h-4 w-4 md:hidden sm:block">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                  </div>
+                </button>
+              </li>
+              <li>
+                <button type="button"
+                  class="flex justify-between items-center py-1 w-full text-my-base-purple-700 border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700 font-semibold font-albertSans-medium md:text-base lg:text-base xl:text-base 2xl:text-base text-base mobile-text peer"
+                  id="about-us">About us
+                  <div id="menu-4-active" class="hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                      class="hidden h-4 w-4 md:block sm:hidden">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                      class="h-4 w-4 md:hidden sm:block">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                  </div>
+                  <div id="menu-4-no-active">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                      class="hidden h-4 w-4 md:block sm:hidden">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                      class="h-4 w-4 md:hidden sm:block">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                  </div>
+                </button>
+              </li>
+              <li>
+                <button type="button"
+                  class="flex justify-between items-center py-1 w-full text-my-base-purple-700 border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700 font-semibold font-albertSans-medium md:text-base lg:text-base xl:text-base 2xl:text-base text-base mobile-text peer"
+                  id="my-home">My Home
+                  <div id="menu-5-active" class="hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                      class="hidden h-4 w-4 md:block sm:hidden">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                      class="h-4 w-4 md:hidden sm:block">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                  </div>
+                  <div id="menu-5-no-active">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                      class="hidden h-4 w-4 md:block sm:hidden">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                      class="h-4 w-4 md:hidden sm:block">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                  </div>
+                </button>
+              </li>
+              <li>
+                <button type="button"
+                  class="flex justify-between items-center py-1 w-full text-my-base-purple-700 border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700 font-semibold font-albertSans-medium md:text-base lg:text-base xl:text-base 2xl:text-base text-base mobile-text"
+                  id="help">Help
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="mt-1 bg-white shadow-sm dark:bg-gray-800 dark:border-gray-600 peer-hover:block hover:block" id="submenu">
+          </div>
+          <div id="submenu-button-group" class="hidden submenu-button-group">
+            <button type="button"
+              class="inline-flex items-center rounded-xl border text-center justify-center border-my-base-purple-500 w-full bg-transparent px-3 py-2.5 button-font-size font-medium text-my-base-purple-700 shadow-sm mb-2 hover:bg-transparent focus:outline-none hover:border-my-base-purple-600 focus:ring-my-base-purple-600 focus:ring-offset-2 font-albertSans-medium md:hidden sm:flex ">
+              <svg class="h-4 w-4 mr-75" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M6.5 0.25H9.5C11.0913 0.25 12.6174 0.882141 13.7426 2.00736C14.8679 3.13258 15.5 4.6587 15.5 6.25C15.5 7.8413 14.8679 9.36742 13.7426 10.4926C12.6174 11.6179 11.0913 12.25 9.5 12.25V14.875C5.75 13.375 0.5 11.125 0.5 6.25C0.5 4.6587 1.13214 3.13258 2.25736 2.00736C3.38258 0.882141 4.9087 0.25 6.5 0.25ZM8 10.75H9.5C10.0909 10.75 10.6761 10.6336 11.2221 10.4075C11.768 10.1813 12.2641 9.84984 12.682 9.43198C13.0998 9.01412 13.4313 8.51804 13.6575 7.97208C13.8836 7.42611 14 6.84095 14 6.25C14 5.65905 13.8836 5.07389 13.6575 4.52792C13.4313 3.98196 13.0998 3.48588 12.682 3.06802C12.2641 2.65016 11.768 2.31869 11.2221 2.09254C10.6761 1.8664 10.0909 1.75 9.5 1.75H6.5C5.30653 1.75 4.16193 2.22411 3.31802 3.06802C2.47411 3.91193 2 5.05653 2 6.25C2 8.9575 3.8465 10.7245 8 12.61V10.75Z"
+                  fill="#14154E" />
+              </svg>
+              Contact us
+            </button>
+            <button type="button"
+              class="inline-flex items-center rounded-xl bg-my-base-purple-500 w-full text-center justify-center px-3 py-2.5 button-font-size font-medium text-white shadow-sm hover:bg-my-base-purple-600 focus:outline-none focus:ring-my-base-purple-600 focus:ring-offset-2 font-albertSans-medium purple-button-background md:hidden sm:flex ">
+              <svg class="h-4 w-4 mr-75" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0 16.5C0 14.9087 0.632141 13.3826 1.75736 12.2574C2.88258 11.1321 4.4087 10.5 6 10.5C7.5913 10.5 9.11742 11.1321 10.2426 12.2574C11.3679 13.3826 12 14.9087 12 16.5H10.5C10.5 15.3065 10.0259 14.1619 9.18198 13.318C8.33807 12.4741 7.19347 12 6 12C4.80653 12 3.66193 12.4741 2.81802 13.318C1.97411 14.1619 1.5 15.3065 1.5 16.5H0ZM6 9.75C3.51375 9.75 1.5 7.73625 1.5 5.25C1.5 2.76375 3.51375 0.75 6 0.75C8.48625 0.75 10.5 2.76375 10.5 5.25C10.5 7.73625 8.48625 9.75 6 9.75ZM6 8.25C7.6575 8.25 9 6.9075 9 5.25C9 3.5925 7.6575 2.25 6 2.25C4.3425 2.25 3 3.5925 3 5.25C3 6.9075 4.3425 8.25 6 8.25Z"
+                  fill="white" />
+              </svg>
+              Customer portal
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <script src="//code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+  <script src="../../dist/js/app.js"></script>
+
+</body>
+
+</html>

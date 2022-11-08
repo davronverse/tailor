@@ -1,0 +1,133 @@
+// _Header.scss
+
+.font-albertSans {
+    font-family: "AlbertSans-Regular", serif;
+}
+
+.font-albertSans-medium {
+    font-family: "AlbertSans-Medium", serif;
+}
+
+.font-albertSans-black {
+    font-family: "AlbertSans-Black", serif;
+}
+
+.purple-button-background {
+    background-color: #6667AB;
+}
+
+.button-font-size {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.mr-75 {
+    margin-right: 7.5px;
+}
+
+.header-menu-box {
+    position: relative;
+    width: auto;
+    right: 0%;
+    visibility: visible;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: rgb(37 99 235);
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(37 99 235);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+@keyframes fadeIn {
+    0% {
+        right: -100%;
+        visibility: hidden;
+    }
+
+    99.999% {
+        right: 0;
+        visibility: visible;
+    }
+
+    100% {
+        right: 0;
+        visibility: visible;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        right: 0;
+        visibility: visible;
+    }
+
+    99.999% {
+        right: -100%;
+        visibility: hidden;
+    }
+
+    100% {
+        right: -100%;
+        visibility: hidden;
+    }
+}
+
+.transition-background {
+    background-color: rgba($color: #000000, $alpha: 0.7);
+    z-index: 10;
+    position: absolute;
+}
+
+.submenu-button-group {
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-text {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .header-menu-box {
+        position: fixed;
+        height: calc(100% - 70px);
+        top: 70px;
+        width: 90% !important;
+        right: -100%;
+        z-index: 9999;
+        overflow: scroll;
+        background-color: white;
+    }
+    
+    .fade-in {
+        animation-name: fadeIn;
+        animation-duration: 0.25s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+    }
+
+    .fade-out {
+        animation-name: fadeOut;
+        animation-duration: 0.25s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+    }
+}

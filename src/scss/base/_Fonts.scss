@@ -1,0 +1,25 @@
+// _Fonts.scss
+
+$fonts-dir : '../fonts/AlbertSans/';
+
+
+@font-face {
+    font-family: 'AlbertSans-Regular';
+    src:    local('AlbertSans-Regular'), 
+            url('#{$fonts-dir}/ttf/AlbertSans-Regular.ttf') format('truetype'),
+            url("#{$fonts-dir}/webfonts/AlbertSans-Regular.woff2") format("woff2");          
+}
+
+@font-face {
+    font-family: 'AlbertSans-Medium';
+    src:    local('AlbertSans-Medium'), 
+            url('#{$fonts-dir}/ttf/AlbertSans-Medium.ttf') format('truetype'),
+            url("#{$fonts-dir}/webfonts/AlbertSans-Medium.woff2") format("woff2");   
+}
+
+@font-face {
+    font-family: 'AlbertSans-Black';
+    src:    local('AlbertSans-Black'), 
+            url('#{$fonts-dir}/ttf/AlbertSans-Black.ttf') format('truetype'),
+            url("#{$fonts-dir}/webfonts/AlbertSans-Black.woff2") format("woff2");   
+}

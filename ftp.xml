@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileZilla3 version="3.60.2" platform="mac">
+	<Servers>
+		<Server>
+			<Host>aries.premium.hostns.io</Host>
+			<Port>21</Port>
+			<Protocol>0</Protocol>
+			<Type>0</Type>
+			<User>staging@highly-developed.com</User>
+			<Pass encoding="base64">V2wkTGc0SSFid0Eh</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<MaximumMultipleConnections>7</MaximumMultipleConnections>
+			<EncodingType>UTF-8</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>HD - STAGE Brixly</Name>
+			<Comments>aries.premium.hostns.io
+staging@highly-developed.com
+Wl$Lg4I!bwA!
+
+</Comments>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+	</Servers>
+</FileZilla3>

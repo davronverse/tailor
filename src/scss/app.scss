@@ -1,0 +1,23 @@
+/*
+ * SASS Styles Controller
+ * Tailwind v3 (https://tailwindcss.com/docs/installation )
+*/
+
+/*------------------------------------*\
+    #NODE INCLUDES
+\*------------------------------------*/
+
+/*------------------------------------*\
+    #TAILWIND CORE & THEME
+\*------------------------------------*/
+
+// @import "mixins";
+@import "~tailwindcss/base";
+@import "base/Base";
+// @import "partials/animations";
+// @import "partials/layout";
+// @import "partials/portal";
+@import "~tailwindcss/components";
+@import "components/Components";
+@import "~tailwindcss/utilities";
+@import "utilities/Utilities";

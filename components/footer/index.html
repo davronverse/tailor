@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{{ COMPONENT NAME }}" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="../../dist/mix-manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>{{ COMPONENT NAME }}</title>
+  <link rel="stylesheet" href="../../dist/css/app.css" />
+  
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <div>
+    <div class="w-11/12 mx-auto px-4 py-2 md:block">
+      <div class="block justify-between sm:block md:flex">
+        <div class="w-1/2 hidden md:block sm:hidden">
+          <a to="/">
+            <img src="../../dist/img/manchester-logo.svg" alt="Manchester logo" class="mb-7" />
+          </a>
+          <p class="text-my-base-footer-description footer-font font-albertSans-medium mb-1.5">
+            Lovell House, Archway 6, Hulme, Manchester M15 5RN
+          </p>
+          <p class="text-my-base-footer-description footer-font font-albertSans-medium mb-7">
+            Tel: 0330 355 1000
+          </p>
+          <a to="/">
+            <img src="../../dist/img/together.svg" alt="Footer logo" class="mt-7" />
+          </a>
+        </div>
+        <div class="md:w-1/2">
+          <div
+            class="grid grid-cols-2 py-5 mx-auto max-w-screen-xl footer-font text-gray-500 dark:text-gray-400 sm:grid-cols-2  md:grid-cols-3">
+            <ul class="mb-4 space-y-4 md:mb-0">
+              <li>
+                <a to="/"
+                  class="dark:hover:text-blue-500  font-albertSans-medium text-my-base-purple-700 footer-font font-semibold">
+                  Quick links
+                </a>
+              </li>
+              <li>
+                <a to="/"
+                  class="hover:underline hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 footer-font underline	">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a to="/"
+                  class="hover:underline hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 footer-font underline	">
+                  Work For Us
+                </a>
+              </li>
+              <li>
+                <a to="/"
+                  class="hover:underline hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 footer-font underline	">
+                  VFM
+                </a>
+              </li>
+              <li>
+                <a to="/"
+                  class="hover:underline hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 footer-font underline	">
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a to="/"
+                  class="hover:underline hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 footer-font underline	">
+                  Access
+                </a>
+              </li>
+              <li>
+                <a to="/"
+                  class="hover:underline hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 footer-font underline	">
+                  Stay in Touch
+                </a>
+              </li>
+            </ul>
+            <ul class="mb-4 space-y-4 md:mb-0">
+              <li>
+                <a to="/"
+                  class="dark:hover:text-blue-500 font-semibold font-albertSans-medium text-my-base-purple-700 footer-font">
+                  Connect with us
+                </a>
+              </li>
+              <li>
+                <a to="/"
+                  class="hover:underline hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 footer-font underline	">
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a to="/"
+                  class="hover:underline hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 footer-font underline	">
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <a to="/"
+                  class="hover:underline hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 footer-font underline	">
+                  Youtube
+                </a>
+              </li>
+              <li>
+                <a to="/"
+                  class="hover:underline hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 footer-font underline	">
+                  Linkedin
+                </a>
+              </li>
+              <li>
+                <a to="/"
+                  class="hover:underline hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 footer-font underline	">
+                  Instagram
+                </a>
+              </li>
+            </ul>
+            <ul class="mb-2 space-y-4 md:mb-0">
+              <li>
+                <a to="/"
+                  class="dark:hover:text-blue-500 font-semibold font-albertSans-medium text-my-base-purple-700 footer-font">
+                  Legal
+                </a>
+              </li>
+              <li>
+                <a to="/"
+                  class="hover:underline hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 footer-font underline	">
+                  Policies
+                </a>
+              </li>
+              <li>
+                <a to="/"
+                  class="hover:underline hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 footer-font underline	">
+                  Cookie Policy
+                </a>
+              </li>
+              <li>
+                <a to="/"
+                  class="hover:underline hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 footer-font underline	">
+                  Privacy, Rights and Cookies
+                </a>
+              </li>
+              <li>
+                <a to="/"
+                  class="hover:underline hover:text-blue-600 dark:hover:text-blue-500 font-medium font-albertSans-medium text-my-base-purple-600 footer-font underline	">
+                  Complaints
+                </a>
+              </li>
+            </ul>
+            <ul class="mb-2 space-y-4 md:hidden">
+              <a to="/">
+                <img src="../../dist/img/together.svg" alt="Footer logo" class="mt-7" />
+              </a>
+            </ul>
+          </div>
+          <div class="md:hidden mb-2">
+            <p class="text-my-base-footer-description footer-font font-albertSans-medium mb-1.5">
+              Lovell House, Archway 6, Hulme, Manchester M15 5RN
+            </p>
+            <p class="text-my-base-footer-description footer-font font-albertSans-medium mb-7">
+              Tel: 0330 355 1000
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="relative mx-auto px-4 py-2 md:py-6">
+      <div class="absolute inset-0 flex items-center" aria-hidden="true">
+        <div class="w-full border-t border-gray-300"></div>
+      </div>
+    </div>
+    <div class="w-11/12 mx-auto px-4 py-2 md:block">
+      <div class="block justify-between sm:block md:flex">
+        <p class="md:w-4/6 text-my-base-footer-description footer-last-font font-albertSans-medium">
+          One Manchester Limited is Registered in England and Wales, Registered Society Number: RS0007018.
+          <br />
+          <br />
+          Registered Office Address: Lovell House, Archway 6, Manchester, M15 5RN. We are Registered with the ICO under
+          Registration Number: ZA111141. One Manchester is Authorised and Regulated by the Financial Conduct Authority, 
+          Firm Registration Number: 843226
+        </p>
+        <p class="mt-4 md:mt-0 md:w-1/6 text-my-base-footer-description footer-last-font font-albertSans-medium">©2022 One
+          Manchester</p>
+      </div>
+    </div>
+  </div>
+  <script src="//code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+  <!--<script src="js/Index.js"></script>-->
+  <script src="../../dist/js/app.js" /></script>
+</body>
+
+</html>
