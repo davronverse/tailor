@@ -1,13 +1,15 @@
 .item-card {
-    width: 40%;
     height: 500px;
-    background: url('../../src/img/itemcard/card1.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     transition: all 3.7s;
 }
-.item-card:hover {
+.item-card:hover  {
     transition: all 5s;
     background-size: 110%;
+}
+.item-card-icon-sm {
+    width: 20px;
+    height: 20px;
 }
