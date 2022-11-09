@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{{ COMPONENT NAME }}" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="../../dist/mix-manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>{{ COMPONENT NAME }}</title>
+    <link rel="stylesheet" href="../../dist/css/app.css" />
+
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div class="m-4">
+      <div class="flex">
+        <div class="input-form-base font-albertSans-medium">
+          <label for="first_name" class="text-[#14154E] block mb-1 text-xs font-bold tracking-wide">LABEL</label>
+          <input type="text" id="first_name" class="w-[216px] bg-gray-50 border border-[#6667AB] text-[#6667AB] text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 placeholder-[#6667AB] " placeholder="Text here" required>
+        </div>
+
+        <div class="input-form-base font-albertSans-medium">
+          <label for="first_name" class="text-[#14154E] block mb-1 text-xs font-bold tracking-wide">LABEL</label>
+          <input type="text" id="first_name" class="w-[216px] bg-[#F3F4FF] border border-[#6667AB] text-[#6667AB] text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 placeholder-[#6667AB] " placeholder="Text here" required>
+        </div>
+
+        <div class="input-form-base font-albertSans-medium">
+          <label for="first_name" class="text-[#14154E] block mb-1 text-xs font-bold tracking-wide">LABEL</label>
+          <input type="text" id="first_name" class="w-[216px] bg-[#F3F4FF] border border-[#14154E] text-[#14154E] text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 placeholder-[#14154E] " placeholder="Text here" required>
+        </div>
+
+        <div class="input-form-base font-albertSans-medium">
+          <label for="first_name" class="text-[#14154E] block mb-1 text-xs font-bold tracking-wide">LABEL</label>
+          <input type="text" id="first_name" class="w-[216px] bg-[#F3F4FF] border border-[#4F9617] text-[#14154E] text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 placeholder-[#14154E] " placeholder="Text here" required>
+        </div>
+      </div>
+
+      <div class="flex items-start">
+        <div class="input-form-base font-albertSans-medium">
+          <label for="first_name" class="text-[#14154E] block mb-1 text-xs font-bold tracking-wide">LABEL</label>
+          <input type="text" id="first_name" class="w-[216px] h-[42px] bg-gray-50 border border-[3px] border-[#6667AB] text-[#6667AB] text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 placeholder-[#6667AB] " placeholder="Text here" required>
+        </div>
+
+        <div class="input-form-base font-albertSans-medium">
+          <label for="first_name" class="text-[#14154E] block mb-1 text-xs font-bold tracking-wide">LABEL</label>
+          <input type="text" id="first_name" class="w-[216px] border border-[#C3C5E6] text-[#6667AB] text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 placeholder-[#E3E4FB] " placeholder="Text here" required>
+        </div>
+        <div class="input-form-base font-albertSans-medium">
+          <label for="first_name" class="text-[#14154E] block mb-1 text-xs font-bold tracking-wide">LABEL</label>
+          <input type="text" id="error" class="w-[216px] bg-red-50 border border-red-500 text-[#E22323] placeholder-[#E22323] text-sm rounded-lg focus:ring-red-500 dark:bg-gray-700 focus:border-red-500 block w-full p-2.5" placeholder="Text here">
+          <p class="mt-1 text-sm text-[#E22323]">Error message</p>
+        </div>
+
+        <div class="input-form-base font-albertSans-medium">
+          <label for="first_name" class="text-[#14154E] block mb-1 text-xs font-bold tracking-wide">LABEL</label>
+          <textarea type="text" rows='4' id="first_name" class="w-[216px] bg-gray-50 border border-[#6667AB] text-[#6667AB] text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 placeholder-[#6667AB] " placeholder="Text here" required></textarea>
+          <p class="mt-1 text-sm text-[#14154E]">0 characters remaining</p>
+        </div>
+      </div>
+
+      <div class="flex items-start">
+        <div class="input-form-base font-albertSans-medium">
+          <label for="first_name" class="text-[#14154E] block mb-1 text-xs font-bold tracking-wide">LABEL</label>
+          <select id="countries" class="w-[216px] border border-[#6667AB] text-[#14154E] text-sm rounded-lg focus:border-blue-500 block w-full p-2.5 placeholder-[#6667AB] block">
+            <option class="rounded-lg" selected>Text here</option>
+            <option value="US">United States</option>
+            <option value="CA">Canada</option>
+            <option value="FR">France</option>
+            <option value="DE">Germany</option>
+          </select>
+        </div>
+
+        <div class="input-form-base font-albertSans-medium">
+          <label for="first_name" class="text-[#14154E] block mb-1 text-xs font-bold tracking-wide">LABEL</label>
+          <select id="countries" class="w-[216px] border border-[3px] border-[#6667AB] text-[#14154E] text-sm rounded-lg focus:border-blue-500 block w-full p-2.5 placeholder-[#6667AB]">
+            <option selected class="rounded-lg text-sm">Text here</option>
+            <option value="US">United States</option>
+            <option value="CA">Canada</option>
+            <option value="FR">France</option>
+            <option value="DE">Germany</option>
+          </select>
+        </div>
+
+        <div class="input-form-base font-albertSans-medium input-form-dropdown">
+          <label for="first_name" class="text-[#14154E] block mb-1 text-xs font-bold tracking-wide">LABEL</label>
+          <button id="dropdownSearchButton" data-dropdown-toggle="dropdownSearch" class="w-[216px] h-[48px] inline-flex items-center py-2.5 px-4 border border-[3px] border-[#6667AB]  text-[#14154E] text-sm rounded-lg content-between " type="button">Dropdown search <svg class="ml-2 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+          <div id="dropdownSearch" class="hidden z-10 w-60 bg-white rounded shadow dark:bg-gray-700">
+            <ul class="overflow-y-auto text-sm text-gray-700 mx-3 border border-[3px] border-[#6667AB] rounded-lg dark:text-gray-200" aria-labelledby="dropdownSearchButton">
+              <li>
+                <div class="p-2 flex items-center justify-between rounded hover:bg-gray-100 hover:bg-[#E3E4FB]">
+                  <label for="first_name" class="text-[#14154E] block px-4 text-sm tracking-wide">Default</label>
+                  <input checked id="checkbox-item-12" type="checkbox" value="" class="w-5 h-5 text-[#6667AB] bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                </div>
+              </li>
+              <li>
+                <div class="p-2 flex items-center justify-between rounded hover:bg-gray-100 hover:bg-[#E3E4FB]">
+                  <label for="first_name" class="text-[#14154E] block px-4 text-sm tracking-wide">Default</label>
+                  <input checked id="checkbox-item-12" type="checkbox" value="" class="w-5 h-5 text-[#6667AB] bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                </div>
+              </li>
+              <li>
+                <div class="p-2 flex items-center justify-between rounded hover:bg-gray-100 hover:bg-[#E3E4FB]">
+                  <label for="first_name" class="text-[#14154E] block px-4 text-sm tracking-wide">Default</label>
+                  <input checked id="checkbox-item-12" type="checkbox" value="" class="w-5 h-5 text-[#6667AB] bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="input-form-base font-albertSans-medium input-form-dropdown">
+          <label for="first_name" class="text-[#14154E] block mb-1 text-xs font-bold tracking-wide">LABEL</label>
+          <button id="dropdownSearchButton1" data-dropdown-toggle="dropdownSearch1" class="w-[216px] h-[48px] inline-flex items-center py-2.5 px-4 border border-[3px] border-[#6667AB]  text-[#14154E] text-sm rounded-lg content-between " type="button">Dropdown search <svg class="ml-2 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+          <div id="dropdownSearch1" class="hidden z-10 w-60 bg-white rounded shadow dark:bg-gray-700">
+            <ul class="overflow-y-auto text-sm text-gray-700 mx-3 border border-[3px] border-[#6667AB] rounded-lg dark:text-gray-200" aria-labelledby="dropdownSearchButton1">
+              <li>
+                <div class="p-2 flex items-center justify-between rounded hover:bg-gray-100 hover:bg-[#E3E4FB]">
+                  <label for="first_name" class="text-[#14154E] block px-4 text-sm tracking-wide">Default</label>
+                </div>
+              </li>
+              <li>
+                <div class="p-2 flex items-center justify-between rounded hover:bg-gray-100 hover:bg-[#E3E4FB]">
+                  <label for="first_name" class="text-[#14154E] block px-4 text-sm tracking-wide">Default</label>
+                </div>
+              </li>
+              <li>
+                <div class="p-2 flex items-center justify-between rounded hover:bg-gray-100 hover:bg-[#E3E4FB]">
+                  <label for="first_name" class="text-[#14154E] block px-4 text-sm tracking-wide">Default</label>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex items-start">
+        <div class="w-[216px] p-2 flex items-center justify-between rounded hover:bg-gray-100 hover:bg-[#E3E4FB]">
+            <label for="first_name" class="text-[#14154E] block px-4 text-sm tracking-wide">Default</label>
+            <input checked id="checkbox-item-12" type="checkbox" value="" class="w-5 h-5 text-[#6667AB] bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+        </div>
+      </div>
+
+      <div class="flex items-start">
+        <div class="w-[500px] h-[4px] input-form-base font-albertSans-medium">
+          <input id="default-range" type="range" value="50" class="w-full h-1 bg-[#14154E] rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
+          <div class="flex items-center justify-between">
+            <label for="first_name" class="text-[#14154E] block mb-1 text-xs font-bold tracking-wide">LABEL</label>
+            <label for="first_name" class="text-[#14154E] block mb-1 text-xs font-bold tracking-wide">LABEL</label>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <script src="//code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+    <!--<script src="js/Index.js"></script>-->
+    <script src="../../dist/js/app.js" /></script>
+  </body>
+
+  </html>
