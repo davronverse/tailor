@@ -446,15 +446,6 @@ const Header = {
     },
 
     //Change Menu State
-    /**
-     * 
-     * @param {*} $menuClickNumber 
-     *  also needs to be dynamic - not known the number of clicks
-     *  ALL JS function should be dynamic as standardm
-     * 
-     *  - grab array length from submenu
-     *  - move into a loop / iterate over and set states dynamically 
-     */
     menuClickNumberChange($menuClickNumber) {
         for(let i = 1;i <= Object.keys(submenu).length; i++) {
             if ($menuClickNumber == i) {
@@ -521,14 +512,6 @@ $('#submenu').on("click", "div div:nth-child(1)", function(evnt) {
     $('#submenu div').addClass('fade-out');
     setTimeout(Header.clearMenu, 800);
 });
-
-/**
- * @todo - not suitable output for use with a CMS 
- * 
- * - this needs to be dynamic - the HTML output is dynamically generated from the CMS and can vary
- * - use generic selectors and data attributes to create the req. relationships
- * 
- */
 
 //Menu hover and mouse click effect
 for(let i = 1;i <= $('#header-menu').children().length; i++) {
