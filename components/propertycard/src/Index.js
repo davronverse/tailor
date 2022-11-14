@@ -13,7 +13,7 @@ import Swiper, { Navigation, Pagination, Scrollbar } from 'swiper';
  * Function Description Goes Here
  */
 const PropertyCard = {
-
+  popup: false,
   init() {
     console.log('property card');
   },
@@ -23,38 +23,27 @@ const PropertyCard = {
   },
 
 };
-$(function () {
-  let width = window.innerWidth;
-  if (width <= 648) {
-    $("#popover-additional-btn-h").hide();
-  } else {
-    $("#popover-additional-btn-c").hide();
-  }
-});
 
-window.addEventListener('resize', function(event) {
-  let width = window.innerWidth;
-  if (width <= 648) {
-    $("#popover-additional-btn-h").hide();
-    $("#popover-additional-btn-c").show();
-  } else {
-    $("#popover-additional-btn-c").hide();
-    $("#popover-additional-btn-h").show();
-  }
-  
-  // popover-additional-btn
-}, true);
+// let popoverHandler = () => {
+//   let width = window.innerWidth;
+//   if (width <= 648) {
+    
+//   } else {
+//     // $("#popover-additional").css("data-popover-trigger", "hover")
+//   }
+// }
+// popoverHandler()
+
+// window.addEventListener('resize', function(event) {
+//   popoverHandler()
+// }, true);
+
+$("#popover-additional-btn").click(function () {
+  $("#popover-additional").show()
+})
 $("#popover-additional-close").click(function () {
-  $("#popover-additional").hide();
+  $("#popover-additional").hide()
 })
-
-$("#popover-additional-btn-h").hover(function () {
-  $("#popover-additional").show();
-})
-$("#popover-additional-btn-c").click(function () {
-  $("#popover-additional").show();
-})
-
 
 // export
 export default PropertyCard;
