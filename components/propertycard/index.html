@@ -27,11 +27,11 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
     <div class="grid grid-cols-2 grid-flow-row max-xl:grid-cols-1">
-      <div class="m-4 grid-card-item">
-        <div class="card border-card property-card inline-block font-albertSans-medium rounded-xl group flex max-sm:block" href="">
+      <div class="grid-card-item">
+        <div class="card border-card property-card inline-block font-albertSans-medium rounded-xl group flex max-sm:block max-sm:w-full" href="">
           <div class="inline-block max-sm:block">
             <div class=" w-full overflow-hidden ">
-              <img src="../../src/img/property/property1/main.png" class="object-fill w-full pb-[2px] max-sm:w-[310px] max-sm:h-[190px]">
+              <img src="../../src/img/property/property1/main.png" class="object-fill max-sm:w-full pb-[2px] md:w-[292px] md:h-[229px] max-sm:h-auto">
             </div>
             <div class="max-sm:hidden w-full flex  overflow-hidden">
               <img src="../../src/img/property/property1/left.png" class="object-fill w-[50%] h-[92px] pr-[2px]">
@@ -53,36 +53,55 @@
             <span class="base-purple-700 bk-base-turquoise-100 text-xs font-extrabold	 mr-2 px-3 py-1.5 rounded-lg tracking-widest">SHARED OWNERSHIP</span>
             <div class="flex mt-2 mb-3.5 relative">
               <span class="block base-purple-700 bk-accent-orange-100 text-xs font-extrabold px-3 py-1.5 mr-1.5 rounded-lg tracking-widest blog-card-status">BUY TO RENT</span>
-              <span class="base-purple-700 text-xs font-semibold mr-1.5 px-3 py-1.5 rounded-lg bg-[#F3F4FF] tracking-wider flex items-center" data-modal-toggle="popup-modal">
-                <p class="pr-1.5 font-extrabold">1</p>
+              <button data-popover-target="popover-additional" id="popover-additional-btn-c" data-popover-trigger="click" type="button" data-popover-placement="right"
+                class="base-purple-700 text-xs font-semibold mr-1.5 px-3 py-1.5 rounded-lg bg-[#F3F4FF] tracking-wider flex items-center">
+                <p class="pr-1.5 font-extrabold" style="line-height: 4px;">1</p>
                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M4.41663 4.41675V0.916748H5.58329V4.41675H9.08329V5.58341H5.58329V9.08341H4.41663V5.58341H0.916626V4.41675H4.41663Z" fill="#14154E"/>
-                </svg>                  
-              </span>
-              <div id="popup-modal" tabindex="-1" class="hidden absolute top-0 right-0 z-50 md:inset-0 h-modal md:h-full">
-                <div class="relative p-4 w-full max-w-md h-full md:h-auto top-[20px] left-[100px]">
-                  <div class="relative bg-white rounded-lg shadow dark:bg-gray-700 w-[210px]">
+                  <path
+                    d="M4.41663 4.41675V0.916748H5.58329V4.41675H9.08329V5.58341H5.58329V9.08341H4.41663V5.58341H0.916626V4.41675H4.41663Z"
+                    fill="#14154E" />
+                </svg>
+              </button>
+              <button data-popover-target="popover-additional" id="popover-additional-btn-h" data-popover-trigger="hover" type="button"
+                data-popover-placement="right"
+                class="base-purple-700 text-xs font-semibold mr-1.5 px-3 py-1.5 rounded-lg bg-[#F3F4FF] tracking-wider flex items-center">
+                <p class="pr-1.5 font-extrabold" style="line-height: 4px;">1</p>
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M4.41663 4.41675V0.916748H5.58329V4.41675H9.08329V5.58341H5.58329V9.08341H4.41663V5.58341H0.916626V4.41675H4.41663Z"
+                    fill="#14154E" />
+                </svg>
+              </button>
+                <div data-popover id="popover-additional" role="tooltip" 
+                  class="inline-block absolute invisible z-10 w-[220px] text-sm font-light text-gray-500 bg-white rounded-lg border border-gray-200 shadow-sm opacity-0 transition-opacity duration-300 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
                     <div class="flex items-center p-4 pb-0">
                       <p class="base-purple-500 text-sm font-bold">ALL TAGS</p>
-                      <button type="button"
+                      <button type="button" id="popover-additional-close" 
                         class="top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white"
                         data-modal-toggle="popup-modal">
-                        <svg aria-hidden="true" class="w-5 h-5 text-[#14154E]" fill="currentColor" viewBox="0 0 20 20"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd"
-                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                            clip-rule="evenodd"></path>
-                        </svg>
+                        <div>
+                          <svg aria-hidden="true" class="w-5 h-5 text-[#14154E]" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                              clip-rule="evenodd"></path>
+                          </svg>
+                        </div>
                         <span class="sr-only">Close modal</span>
                       </button>
                     </div>
                     <div class="p-4 text-center">
-                      <span class="block base-purple-700 bk-base-turquoise-100 text-xs font-extrabold mb-2 px-3 py-1.5 rounded-lg tracking-widest">SHARED OWNERSHIP</span>
-                      <span class="block base-purple-700 bk-accent-orange-100 text-xs font-extrabold px-3 mb-2 py-1.5 rounded-lg tracking-widest blog-card-status">BUY TO RENT</span>
-                      <span class="block base-purple-700 bk-accent-orange-100 text-xs font-extrabold px-3 py-1.5 rounded-lg tracking-widest blog-card-status bk-base-purple-200">CATEGORY 3</span>
+                      <span
+                        class="block base-purple-700 bk-base-turquoise-100 text-xs font-extrabold mb-2 px-3 py-1.5 rounded-lg tracking-widest">SHARED
+                        OWNERSHIP</span>
+                      <span
+                        class="block base-purple-700 bk-accent-orange-100 text-xs font-extrabold px-3 mb-2 py-1.5 rounded-lg tracking-widest blog-card-status">BUY
+                        TO RENT</span>
+                      <span
+                        class="block base-purple-700 bk-accent-orange-100 text-xs font-extrabold px-3 py-1.5 rounded-lg tracking-widest blog-card-status bk-base-purple-200">CATEGORY
+                        3</span>
                     </div>
-                  </div>
-                </div>
+                  <div data-popper-arrow></div>
               </div>
             </div>
 
