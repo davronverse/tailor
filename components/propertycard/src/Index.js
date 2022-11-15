@@ -39,10 +39,10 @@ const PropertyCard = {
 // }, true);
 
 $("#popover-additional-btn").click(function () {
-  $("#popover-additional").show()
+  $("#popover-additional").removeClass("invisible")
 })
 $("#popover-additional-close").click(function () {
-  $("#popover-additional").hide()
+  $("#popover-additional").addClass("invisible")
 })
 
 // export
