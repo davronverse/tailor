@@ -12,10 +12,10 @@ import Swiper, { Navigation, Pagination, Scrollbar } from 'swiper';
 /**
  * Function Description Goes Here
  */
-const Footer = {
-
+const PropertyCard = {
+  popup: false,
   init() {
-    console.log('hit');
+    console.log('property card');
   },
 
   methodName($param) {
@@ -24,8 +24,29 @@ const Footer = {
 
 };
 
+// let popoverHandler = () => {
+//   let width = window.innerWidth;
+//   if (width <= 648) {
+    
+//   } else {
+//     // $("#popover-additional").css("data-popover-trigger", "hover")
+//   }
+// }
+// popoverHandler()
+
+// window.addEventListener('resize', function(event) {
+//   popoverHandler()
+// }, true);
+
+$("#popover-additional-btn").click(function () {
+  $("#popover-additional").removeClass("invisible")
+})
+$("#popover-additional-close").click(function () {
+  $("#popover-additional").addClass("invisible")
+})
+
 // export
-export default Footer;
+export default PropertyCard;
 
 // initiate
-Footer.init();
+PropertyCard.init();
